@@ -1,0 +1,11 @@
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\obj\Debug\netcoreapp3.0\Task12.AssemblyInfoInputs.cache
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\obj\Debug\netcoreapp3.0\Task12.AssemblyInfo.cs
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\bin\Debug\netcoreapp3.0\Task12.exe
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\bin\Debug\netcoreapp3.0\Task12.deps.json
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\bin\Debug\netcoreapp3.0\Task12.runtimeconfig.json
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\bin\Debug\netcoreapp3.0\Task12.runtimeconfig.dev.json
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\bin\Debug\netcoreapp3.0\Task12.dll
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\bin\Debug\netcoreapp3.0\Task12.pdb
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\obj\Debug\netcoreapp3.0\Task12.dll
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\obj\Debug\netcoreapp3.0\Task12.pdb
+D:\UnityExperience\FullStackBegginer\C#\Task12\Task12\obj\Debug\netcoreapp3.0\Task12.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\bin\Debug\netcoreapp3.0\Task11.exe
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\bin\Debug\netcoreapp3.0\Task11.deps.json
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\bin\Debug\netcoreapp3.0\Task11.runtimeconfig.json
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\bin\Debug\netcoreapp3.0\Task11.runtimeconfig.dev.json
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\bin\Debug\netcoreapp3.0\Task11.dll
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\bin\Debug\netcoreapp3.0\Task11.pdb
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\obj\Debug\netcoreapp3.0\Task11.csprojAssemblyReference.cache
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\obj\Debug\netcoreapp3.0\Task11.AssemblyInfoInputs.cache
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\obj\Debug\netcoreapp3.0\Task11.AssemblyInfo.cs
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\obj\Debug\netcoreapp3.0\Task11.dll
+D:\UnityExperience\FullStackBegginer\C#\Task11\Task11\obj\Debug\netcoreapp3.0\Task11.pdb
