@@ -14,6 +14,12 @@ namespace Task8
              * Создать метод расчета стоимости заказа с НДС и без НДС.
              * Написать программу, которая выводит на экран сумму оплаты заказанного товара с НДС или без НДС.
              */
+
+            Invoice invoice = new Invoice(999999, "Shulha Ihor", "Nova Pashta", 1000);
+            invoice.Article = "phone";
+            invoice.Quantity = 1;
+            Console.WriteLine(invoice.ToString());
+            //Console.ReadKey();
         }
     }
 }
