@@ -1,0 +1,11 @@
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\bin\Debug\netcoreapp3.0\Task6.exe
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\bin\Debug\netcoreapp3.0\Task6.deps.json
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\bin\Debug\netcoreapp3.0\Task6.runtimeconfig.json
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\bin\Debug\netcoreapp3.0\Task6.runtimeconfig.dev.json
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\bin\Debug\netcoreapp3.0\Task6.dll
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\bin\Debug\netcoreapp3.0\Task6.pdb
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\obj\Debug\netcoreapp3.0\Task6.csprojAssemblyReference.cache
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\obj\Debug\netcoreapp3.0\Task6.AssemblyInfoInputs.cache
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\obj\Debug\netcoreapp3.0\Task6.AssemblyInfo.cs
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\obj\Debug\netcoreapp3.0\Task6.dll
+D:\UnityExperience\FullStackBegginer\OOP\Task6\Task6\obj\Debug\netcoreapp3.0\Task6.pdb
