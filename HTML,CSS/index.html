@@ -4,28 +4,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
-        table {
-            
-            
-        }
-
-        tbody {
+        table, th, td {
+            border: 1px solid black;
             cursor: pointer;
         }
 
-        thead {
-    
+        th {
+            background-color: coral;
         }
 
-        td {
+        tr:nth-child(even){
+            background-color: limegreen;
+        }
         
+        tr:hover {
+            background-color: yellowgreen;
         }
     </style>
     <title>Table</title>
 </head>
 <body>
     <div>
-        <table border="1">
+        <table>
         <thead>
         <tr>
             <th>Country</th>
@@ -40,40 +40,27 @@
             <td>Kiyv</td>
             <td>45 000 000</td>
         </tr>
-        </tbody>
-
-        <tbody>
         <tr>
             <td>United Kingdom</td>
             <td>London</td>
             <td>67 545 757</td>
         </tr>
-        </tbody>
-
-        <tbody>
         <tr>
             <td>France</td>
             <td>Paris</td>
             <td>67 022 000</td>
         </tr>
-        </tbody>
-
-        <tbody>
         <tr>
             <td>Republic of Ireland</td>
             <td>Dublin</td>
             <td>4 921 500</td>
         </tr>
-        </tbody>
-
-        <tbody>
         <tr>
             <td>Poland</td>
             <td>Warsaw</td>
             <td>38 386 000</td>
         </tr>
         </tbody>
-
         </table>
     </div>
 </body>
