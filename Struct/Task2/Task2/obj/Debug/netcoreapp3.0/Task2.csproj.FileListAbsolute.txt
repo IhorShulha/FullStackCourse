@@ -1,0 +1,11 @@
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\obj\Debug\netcoreapp3.0\Task2.csprojAssemblyReference.cache
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\obj\Debug\netcoreapp3.0\Task2.AssemblyInfoInputs.cache
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\obj\Debug\netcoreapp3.0\Task2.AssemblyInfo.cs
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\bin\Debug\netcoreapp3.0\Task2.exe
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\bin\Debug\netcoreapp3.0\Task2.deps.json
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\bin\Debug\netcoreapp3.0\Task2.runtimeconfig.json
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\bin\Debug\netcoreapp3.0\Task2.runtimeconfig.dev.json
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\bin\Debug\netcoreapp3.0\Task2.dll
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\bin\Debug\netcoreapp3.0\Task2.pdb
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\obj\Debug\netcoreapp3.0\Task2.dll
+D:\UnityExperience\FullStackBegginer\Struct\Task2\Task2\obj\Debug\netcoreapp3.0\Task2.pdb
