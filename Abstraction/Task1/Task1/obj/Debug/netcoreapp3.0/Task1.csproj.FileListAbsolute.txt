@@ -1,0 +1,3 @@
+D:\UnityExperience\FullStackBegginer\Abstraction\Task1\Task1\obj\Debug\netcoreapp3.0\Task1.csprojAssemblyReference.cache
+D:\UnityExperience\FullStackBegginer\Abstraction\Task1\Task1\obj\Debug\netcoreapp3.0\Task1.AssemblyInfoInputs.cache
+D:\UnityExperience\FullStackBegginer\Abstraction\Task1\Task1\obj\Debug\netcoreapp3.0\Task1.AssemblyInfo.cs
