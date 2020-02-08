@@ -1,0 +1,251 @@
+<html lang="en">
+<head>
+    <style>
+        body { 
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #c6c2fd, #212153);
+            font-family: Arial, sans-serif;
+        }
+
+        .decor {
+            display: block;
+            max-width: 500px;
+            margin: 50px auto;
+            background: #fbfaff;
+            box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+        }
+
+
+        .form-header {
+            width: 100%;
+            background: #f1f2f7;
+            border-bottom:1px solid #dfe0e5;  
+        }
+
+        .decor h3 {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-weight: normal;
+            font-size: 24px;
+        }
+
+        .form-body {
+            padding:0;
+            margin:0;
+            background: #F9FAFF;
+        }
+
+        .personal-data input {
+            box-sizing: border-box;
+            padding: 5px;
+            margin: 10px 20px 10px 20px;
+            width: 200px;
+        }
+
+        .adress input, select, textarea {
+          box-sizing: border-box;
+          padding: 5px;
+          margin: 10px 20px 10px 20px;
+          
+        }
+
+        .adress input[name="city"] {
+            width: 148px;
+        }
+
+        .adress input[name="post-code"] {
+            width: 100px;
+        }
+
+        .text-adress input[name="adress"] {
+            width: 445px;
+        }
+
+        .adress textarea {
+            width: 445px;
+            resize: none;
+        }
+
+        .decor hr {
+            border-top:1px solid #d3d3d9;
+        }
+
+        /**
+        Description payment method
+        */
+        .payment input {
+           padding: 5px;
+           margin: 10px 5px 5px 20px;
+           text-align: left;
+        }
+
+        input[type='radio']:after {
+            width: 10px;
+            height: 10px;
+            border-radius: 15px;
+            position: absolute;
+            content: '';
+            visibility: visible;
+        }
+
+        input[type='radio']:checked::after {
+            width: 2px;
+            height: 2px;
+            border-radius: 6px;
+            transform: translate(50%, 50%);
+            position: absolute; 
+            content: '';      
+            visibility: visible;
+            border: 2px solid #b65dcc;
+            background-color: #b65dcc;
+        }
+
+        .name-card input {
+            width: 445px;
+        }
+
+        .card-info input[name="card-number"] {
+            width: 355px;
+        }
+
+        .card-info input[name="cvv"] {
+            width: 60px;
+        }
+
+        .expiration-date {
+            padding: 5px;
+            margin: 0px 10px 10px 20px;
+            font-family: Arial, sans-serif;
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+        .expiration-date select {
+            padding: 5px;
+            width: 30%;
+            margin-left: 110px;
+            margin-right: 20px; 
+        }
+        
+        /*
+        Description footer form
+        */
+        .form-footer {
+            padding: 10px;
+            background: #e4e3e9;
+            border-top:1px solid #d3d3d9;
+            text-align: right;
+        
+        }
+
+        .form-footer button {
+            background-color: #b65dcc;
+            color: #fff;
+            padding: 10px 30px;
+            margin: 10px 20px 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-footer button:hover {
+            background-color: #a44bbb;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <form class="decor">
+            <div class="form-header">
+                <h3>Checkout form</h3>
+            </div>
+        
+            <div class="form-body">
+                <div class="personal-data">
+                    <input type="text" name="name" placeholder="First name">
+                    <input type="text" name="last-name" placeholder="Last name">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="tel" name="phone" placeholder="Phone">
+                </div>
+
+                <hr>
+
+                <div class="adress">
+                    <div class="home-adress">
+                    <select name="select" id="" size="1">
+                        <option value="Country" hidden selected="selected">Country</option>
+                        <option value="Great Britain">Great Britain</option>
+                        <option value="Poland">Poland</option>
+                        <option value="France">France</option>
+                        <option value="Ukraine">France</option>
+                        <option value="USA">USA</option>
+                    </select>
+                
+                    <input type="text" name="city" placeholder="City">
+                    <input type="number" name="post-code" size="3" placeholder="Post code">
+                    </div>
+
+                    <div class="text-adress"><input type="text" name="adress" placeholder="Adress"></div>
+                    <div class="additional-info">
+                        <textarea name="info" cols="50" rows="4" placeholder="Additional info"></textarea>
+                    </div>
+                </div>
+                
+                <hr>
+                <div class="payment">
+                <div class="type-card">
+                    
+                    <input type="radio" name="payment" value="visa" checked> Visa
+                
+                    
+                    <label for="MasterCard">MasterCard</label>
+                    <input type="radio" name="payment" value="MasterCard"> MasterCard
+                    
+                    
+                    <input type="radio" name="payment" value="PayPal"> PayPal
+                    
+                </div>
+
+                
+                    <div class="name-card"><input type="text" placeholder="Name on card"></div>
+                
+                <div class="card-info">
+                    <input type="number" name="card-number" placeholder="Card Number" maxlength="16">
+                    <input type="text" name="cvv" placeholder="CVV2" maxlength="3">
+                </div>
+
+                    <div class="expiration-date">
+                    <label for="exp">Expiration date</label>
+                    <select name="exp" id="">
+                        <option value="0">Month</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+
+                    <input name="year" type="text" placeholder="Year" size="3">
+                </div>
+                </div>
+            </div>
+
+                <div class="form-footer">
+                    <button class="button">Continue</button>
+                </div>
+        </form>
+    </div>
+</body>
+</html>

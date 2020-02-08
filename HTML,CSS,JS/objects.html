@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+        // https://learn.javascript.ru/object-basics
+
+        let user = {
+            name: "John", //key: value
+            age: 30 
+            // Свойства объекта также иногда называют полями объекта.
+            // Можно сказать, что наш объект user – это ящик с двумя папками, подписанными «name» и «age».
+        }
+
+        // получаем свойства объекта:
+        // delete user.age;
+        console.log(user.name);
+        console.log(user.age);
+
+        // "in" для проверки существования свойства в объекте.
+        console.log("age" in user);
+        console.log("secondName" in user);
+
+        /**
+        for (key in object) {
+            // тело цикла выполняется для каждого свойства объекта
+        }
+        */
+        for (let key in user) {
+            console.log(key);
+            console.log(user[key]);
+        }
+
+        // Переменная хранит не сам объект, а его «адрес в памяти», другими словами «ссылку» на него.
+        // Когда переменная объекта копируется – копируется ссылка, сам же объект не дублируется.
+
+        // Если мы представляем объект как ящик, то переменная – это ключ к нему. Копирование переменной дублирует ключ, но не сам ящик.
+
+        // Два объекта равны только в том случае, если это один и тот же объект.
+
+
+        let test = {};
+        test.name = "John";
+        test.surname = "Smith";
+        console.log(test);
+        test.name =  "Pete";
+        console.log(test);
+        delete test.name;
+        console.log(test);
+
+        function isEmpty(obj) {
+            for (let key in obj) {
+              // если тело цикла начнет выполняться - значит в объекте есть свойства
+              return false;
+            }
+            return true;
+          }
+
+
+          let salaries = {
+              John: 100,
+              Ann: 160,
+              Pete: 130
+          };
+
+          let sum = 0;
+          for (let key in salaries) {
+            sum += salaries[key];
+          }
+          console.log(sum);
+        
+    </script>
+
+
+    <script>
+        // Сборка мусора:
+        // Управление памятью в JavaScript выполняется автоматически и незаметно. 
+        // Мы создаём примитивы, объекты, функции… Всё это занимает память.
+
+        // Основной концепцией управления памятью в JavaScript является принцип достижимости.
+        // Если упростить, то «достижимые» значения – это те, которые доступны или используются. Они гарантированно находятся в памяти.
+        
+    </script>
+</body>
+</html>
